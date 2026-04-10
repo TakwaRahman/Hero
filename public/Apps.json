@@ -1,0 +1,200 @@
+[
+    {
+        "image": "https://i.ibb.co.com/Ngz13n3b/demo-app-1.webp",
+        "title": "Skyline Scanner",
+        "companyName": "AeroVision Labs",
+        "id": 1,
+        "description": "Scan the skies with real-time tracking and interactive maps for drones and aircraft.",
+        "size": 42,
+        "reviews": 1250,
+        "ratingAvg": 4.5,
+        "downloads": "50k",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 770
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/mrfR0WDf/demo-app-2.webp",
+        "title": "Pixel Painter",
+        "companyName": "CreativeSoft",
+        "id": 2,
+        "description": "A minimalist drawing app for artists to create pixel-perfect digital art.",
+        "size": 55,
+        "reviews": 870,
+        "ratingAvg": 4.2,
+        "downloads": "38k",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 375
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/tTwr6NCh/demo-app-3.webp",
+        "title": "FitTrack Pro",
+        "companyName": "HealthHub",
+        "id": 3,
+        "description": "Track your workouts, steps, and calories with smart wearable integration.",
+        "size": 65,
+        "reviews": 1420,
+        "ratingAvg": 4.7,
+        "downloads": "120k",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 865
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Cp8gWZzT/demo-app-4.webp",
+        "title": "MindSpace Journal",
+        "companyName": "InnerWorld",
+        "id": 4,
+        "description": "A meditation and journaling app to boost mindfulness and daily reflection.",
+        "size": 38,
+        "reviews": 650,
+        "ratingAvg": 4.4,
+        "downloads": "25k",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 335
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/xSCXRpDv/demo-app-5.webp",
+        "title": "SoundWave Player",
+        "companyName": "EchoTech",
+        "id": 5,
+        "description": "High-fidelity music player with custom EQ and playlist management.",
+        "size": 47,
+        "reviews": 980,
+        "ratingAvg": 4.3,
+        "downloads": "45k",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 410
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/xqFcf6dm/demo-app-6.webp",
+        "title": "TravelMate",
+        "companyName": "Wanderlust Inc.",
+        "id": 6,
+        "description": "Plan your trips, track expenses, and discover hidden gems worldwide.",
+        "size": 60,
+        "reviews": 1100,
+        "ratingAvg": 4.6,
+        "downloads": "90k",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25
+            },
+            {
+                "name": "2 star",
+                "count": 35
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 520
+            }
+        ]
+    }
+]

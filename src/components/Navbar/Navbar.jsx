@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { NavLink } from 'react-router';
 
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
                 <div className='hidden md:flex'>
                     <ul className='flex gap-5 font-semibold'>
                         <li><a href="" className='bg-linear-to-l from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent'>Home</a></li>
-                        <li><a href="">Apps</a></li>
+                        <li><NavLink to="/Apps">Apps</NavLink></li>
                         <li><a href="">installation</a></li>
                     </ul>
                 </div>
