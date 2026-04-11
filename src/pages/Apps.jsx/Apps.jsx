@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import App from '../../pages/App.jsx/App'
 
@@ -9,7 +9,7 @@ const Apps = () => {
     const data = useLoaderData();
 
 
-    const [showAll, setShowAll] = useEffect(false);
+    const [showAll, setShowAll] = useState(false)
 
     const handleShow=()=>{
         setShowAll(true)

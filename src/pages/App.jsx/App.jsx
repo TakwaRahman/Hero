@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+import { calculateAvgRating } from '../../components/utility/ratings/ratings'
 
 
 
@@ -9,12 +10,7 @@ const App = ({ app }) => {
 
     const { image, title, downloads, ratings } = app;
 
-    const totalRatings = ratings.reduce((sum, rate) => sum + rate.count, 0)
-
-    const avgRatings = ratings.reduce((sum, rate) => {
-        const star = parseInt(rate.name); // "5 star" → 5
-        return sum + star * rate.count;
-    }, 0) / totalRatings;
+    const avgRatings = calculateAvgRating(ratings);
 
 
     return (

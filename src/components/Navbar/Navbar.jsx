@@ -14,8 +14,10 @@ const Navbar = () => {
 
                 <div className='hidden md:flex'>
                     <ul className='flex gap-5 font-semibold'>
-                        <li><a href="" className='bg-linear-to-l from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent'>Home</a></li>
-                        <li><NavLink to="/Apps">Apps</NavLink></li>
+                        <NavLink to="/" end className={({ isActive }) => isActive ? "bg-linear-to-l from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent" : ""}><li>Home</li></NavLink>
+
+                        <NavLink to='/Apps' className={({ isActive }) => isActive ? "bg-linear-to-l from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent" : ""}><li>Apps</li></NavLink>
+
                         <li><a href="">installation</a></li>
                     </ul>
                 </div>
