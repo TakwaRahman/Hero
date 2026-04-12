@@ -6,6 +6,8 @@ import dow from '../../assets/icon-downloads.png'
 import star from '../../assets/icon-ratings.png'
 import review from '../../assets/icon-review.png'
 import { calculateAvgRating } from '../../components/utility/ratings/ratings'
+import { addToDB } from '../../components/utility/addToDB/addToDB';
+import { Toaster } from 'react-hot-toast';
 
 
 const chartData = [
@@ -32,6 +34,10 @@ const AppsDetails = () => {
 
     const singleApps = data.find(app => app.id === appID)
 
+    if (!singleApps) {
+        return <p>App Not Found</p>
+    }
+
 
     const { image, title, downloads, ratings, companyName, reviews, size, description } = singleApps
 
@@ -40,9 +46,19 @@ const AppsDetails = () => {
 
 
 
+    const handleInstallApps = (id) => {
+        addToDB(id)
+    }
+
+
+
 
     return (
         <div className='bg-gray-100'>
+
+
+            <Toaster />
+
             <div className='pt-20 px-20 flex gap-10'>
                 <img className='' src={image} alt="" />
 
@@ -75,7 +91,7 @@ const AppsDetails = () => {
                     </div>
 
                     <div className='mt-5'>
-                        <button className="btn bg-[#00D390] text-white">Install Now ({size})</button>
+                        <button onClick={() => handleInstallApps(id)} className="btn bg-[#00D390] text-white">Install Now ({size})</button>
                     </div>
                 </div>
 

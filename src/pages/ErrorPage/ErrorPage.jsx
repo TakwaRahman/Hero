@@ -14,9 +14,9 @@ const ErrorPage = () => {
 
 
 
-            <div className=''>
+            <div className='bg-gray-100 pt-20'>
                 <img className='max-w-6xl mx-auto' src={pageNot} alt="" />
-                <h1 className='text-center text-4xl mt-10 font-semibold'>Oops, page not found!</h1>
+                <h1 className='text-center text-4xl mt-5 font-semibold'>Oops, page not found!</h1>
                 <p className='text-center mt-3 text-gray-500'>The page you are looking for is not available.</p>
             </div>
         </div>
