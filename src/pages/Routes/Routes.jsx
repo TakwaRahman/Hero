@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
         Component: Home
       },
       {
-        path: "/Apps",
+        path: "/apps",
         loader: () => fetch("Apps.json").then(res => res.json()),
         Component: NavApps
       },
