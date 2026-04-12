@@ -13,7 +13,7 @@ const NavApps = () => {
         const avgRatings = calculateAvgRating(app.ratings);
 
         return (
-            <Link to={`/AppsDetails/${app.id}`}>
+            <Link to={`/appsDetails/${app.id}`}>
                 <div key={app.id} className='border border-none hover:shadow-xl hover:translate-y-2 transition duration-300 p-5 rounded-lg w-full'>
                     <img className='w-full' src={app.image} alt="" />
                     <p className='mt-2 font-semibold'>{app.title}</p>

@@ -32,15 +32,14 @@ const AppsDetails = () => {
 
     const singleApps = data.find(app => app.id === appID)
 
-    const { image, title, downloads, ratings, companyName, reviews, size } = singleApps
+
+    const { image, title, downloads, ratings, companyName, reviews, size, description } = singleApps
 
 
     const avgRatings = calculateAvgRating(ratings);
 
 
-    if (!singleApps) {
-        return <p>Page Not Found</p>
-    }
+
 
     return (
         <div className='bg-gray-100'>
@@ -103,8 +102,9 @@ const AppsDetails = () => {
             </div>
 
 
-            <div>
-                <h2>Description</h2>
+            <div className='pl-20 mt-10'>
+                <h2 className='font-bold text-xl'>Description</h2>
+                <p className='pt-5'>{description}</p>
             </div>
 
 
