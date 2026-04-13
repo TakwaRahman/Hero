@@ -55,10 +55,6 @@ const AppsDetails = () => {
 
     return (
         <div className='bg-gray-100'>
-
-
-            <Toaster />
-
             <div className='pt-20 px-20 flex gap-10'>
                 <img className='' src={image} alt="" />
 
@@ -91,7 +87,7 @@ const AppsDetails = () => {
                     </div>
 
                     <div className='mt-5'>
-                        <button onClick={() => handleInstallApps(id)} className="btn bg-[#00D390] text-white">Install Now ({size})</button>
+                        <button onClick={() => handleInstallApps(id)} className="btn bg-[#00D390] text-white">Install Now {size}</button>
                     </div>
                 </div>
 
